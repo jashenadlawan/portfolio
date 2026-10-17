@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Jashen Portfolio preview",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}\\.vscode\\serve.ps1"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
